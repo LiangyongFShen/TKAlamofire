@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TKAlamofire"
 
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
 
   s.summary      = "Elegant HTTP Networking in Swift"
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/nicolastinkl/TKAlamofire.git", :tag => s.version }
   
-  s.source_files = 'TKAlamofire/*.swift'
+  s.source_files = 'Source/*.swift'
 
   s.requires_arc = true
    
