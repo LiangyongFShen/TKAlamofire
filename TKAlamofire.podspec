@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.name         = "TKAlamofire"
 
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
 
-  s.summary      = "Elegant HTTP Networking in Swifte"
+  s.summary      = "Elegant HTTP Networking in Swift"
 
-  s.description  = "Elegant HTTP Networking in Swift"
+  s.description  = "Elegant HTTP Networking in Swift by tinkl"
 
   s.homepage     = "https://github.com/nicolastinkl/TKAlamofire"
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "tinkl" => "nicolastinkl@gmail.com" }  
 
-  s.platform     = :ios, "8.0"
+  #  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms  
   
