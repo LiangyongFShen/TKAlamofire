@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TKAlamofire"
 
-  s.version      = "1.1.3"
+  s.version      = "1.1.4"
 
   s.summary      = "Elegant HTTP Networking in Swift"
 
@@ -33,12 +33,14 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms  
   
-  # s.ios.deployment_target = '8.0'
+
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.9'
 
   s.source       = { :git => "https://github.com/nicolastinkl/TKAlamofire.git", :tag => s.version }
   
   s.source_files = 'Source/*.swift'
 
-  # s.requires_arc = true
+  s.requires_arc = true
    
 end
