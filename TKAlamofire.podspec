@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TKAlamofire"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "TKAlamofire for network with swift in apple"
 
   s.description  = " A longer description of TKAlamofire in Markdown format"
@@ -61,8 +61,8 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
+  # s.ios.deployment_target = '8.0'
+  # s.osx.deployment_target = '10.9'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/nicolastinkl/TKAlamofire.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/nicolastinkl/TKAlamofire.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
