@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TKAlamofire"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "TKAlamofire for network with swift in apple"
 
   s.description  = " A longer description of TKAlamofire in Markdown format"
@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms  
   
@@ -78,6 +78,6 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― # 
   
   s.source_files = 'TKAlamofire/*.swift'
-  #  s.requires_arc = true
+  s.requires_arc = true
    
 end
